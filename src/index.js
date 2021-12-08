@@ -7,12 +7,12 @@ import Header from './Header';
 import DemoClass from './ClassComponent'
 
 ReactDOM.render(
-  <main>
+  <div>
   <Form/>
   <FunctionalComponent/>
   <Header/>
   <DemoClass/>
-  </main>,
+  </div>,
   document.getElementById('root')
   );
 
